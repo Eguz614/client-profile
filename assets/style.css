@@ -169,7 +169,7 @@ color: var(--ALMOND);
 .nested{
     display: grid;
    
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     margin: 0;
     
@@ -178,4 +178,8 @@ color: var(--ALMOND);
   .nested p{
     border: 5px solid var(--DARK);
     margin: 0;
+  }
+
+  #big{
+    
   }
