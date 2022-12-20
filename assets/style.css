@@ -120,13 +120,20 @@ color: var(--ALMOND);
   }
   .content2 {
     grid-area: content2;
-    width: 800px;
+    display: flexbox;
+    width: 80%;
+    
+    margin-top: 20px;
 }
 
   .footer {
+    position: relative;
     grid-area: footer;
     width: 900px;
     border-radius: 10px;
+    margin-top: 200px;
+    left:250px;
+    background-color:var(--DARK);
 }
 
 .u{
@@ -140,7 +147,7 @@ color: var(--ALMOND);
 }
 
 .links2{
-    width: 10px;
+    width: 20px;
     
 }
 
@@ -160,16 +167,16 @@ color: var(--ALMOND);
     "sidebar3 footer  footer ";
     background-color: var(--WHITE);
     
-  }
-
-.footer {
-  background-color:var(--DARK);
 }
+
+
+  
+
 
 .nested{
     display: grid;
-   
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
     grid-gap: 10px;
     margin: 0;
     
@@ -178,8 +185,17 @@ color: var(--ALMOND);
   .nested p{
     border: 5px solid var(--DARK);
     margin: 0;
-  }
-
-  #big{
+    width: 100px;
+    max-width: 100%;
     
+    object-fit: cover;
+
   }
+img{
+
+object-fit: cover;
+width:100%;
+height: 100%;
+
+}
+  
